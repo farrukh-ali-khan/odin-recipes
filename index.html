@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signature Dishes of Pakistan</title>
+    <meta
+      name="description"
+      content="Explore signature dishes from Pakistan including Chicken Biryani, Nihari, and Gulab Jamun with recipes and descriptions."
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="banner-container">
+      <img
+        src="./images/banner.jpg"
+        alt="Banner"
+        class="banner-image"
+        loading="lazy"
+      />
+      <div class="overlay">
+        <h1>Savory Delights & Sweet Indulgences</h1>
+        <ul class="dish-list">
+          <li>
+            <a href="recipes/chicken-biryani.html">
+              <i class="fas fa-drumstick-bite"></i> Chicken Biryani
+            </a>
+          </li>
+          <li>
+            <a href="recipes/nihari.html">
+              <i class="fas fa-bowl-rice"></i> Nihari
+            </a>
+          </li>
+          <li>
+            <a href="recipes/gulab-jamun.html">
+              <i class="fas fa-cake"></i> Gulab Jamun
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script defer type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "Recipe",
+        "name": "Chicken Biryani",
+        "image": "../images/biryani.jpg",
+        "description": "Chicken Biryani is a flavorful and aromatic Indian rice dish cooked with chicken, spices, and herbs.",
+        "recipeIngredient": [
+          "2 cups basmati rice",
+          "500 grams chicken pieces",
+          ...
+        ],
+        "recipeInstructions": [
+          "Wash and soak the rice for 30 minutes...",
+          ...
+        ],
+        "cookTime": "PT30M",
+        "prepTime": "PT30M",
+        "totalTime": "PT1H"
+      }
+    </script>
+  </body>
+</html>

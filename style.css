@@ -1,0 +1,116 @@
+/* Reset some default styles */
+body, h1, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  font-size: 16px; /* Base font-size for scaling */
+}
+
+.banner-container {
+  position: relative;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden; /* Hide overflow */
+}
+
+.banner-image {
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 1.25rem; /* 20px equivalent in rem */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; /* White text color for better contrast */
+  text-align: center;
+  padding: 1.25rem; /* 20px equivalent in rem */
+}
+
+h1 {
+  font-size: 3rem; /* Large heading size */
+  margin-bottom: 1.25rem; /* 20px equivalent in rem */
+}
+
+.dish-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 0.5rem; /* Rounded corners (8px equivalent in rem) */
+  display: inline-block; /* Align items as block */
+}
+
+.dish-list li {
+  margin: 0.625rem 0; /* 10px equivalent in rem */
+}
+
+.dish-list a {
+  text-decoration: none;
+  color: white; /* Text color to stand out */
+  font-size: 1.2rem; /* Use rem for font size */
+  display: flex;
+  align-items: center;
+}
+
+.dish-list i {
+  margin-right: 0.5rem; /* 8px equivalent in rem */
+}
+
+.dish-list a:hover {
+  color: #ffcc00;
+  transition: color 0.3s ease;
+}
+
+.recipe {
+  padding: 2rem;
+}
+
+.dish-img {
+  width: 30rem;
+  height: auto;
+  object-fit: cover;
+}
+
+.recipe ul {
+  padding: 0 0 0 2rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem; /* Slightly smaller on smaller screens */
+  }
+
+  .overlay {
+    width: 90%;
+    padding: 1rem; /* Adjust padding for smaller screens */
+  }
+
+  .dish-list a {
+    font-size: 1rem; /* Scale down font size */
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2rem; /* Smaller heading for small devices */
+  }
+
+  .dish-list a {
+    font-size: 0.9rem; /* Smaller font on very small screens */
+  }
+
+  .overlay {
+    padding: 0.75rem; /* Reduce padding further */
+  }
+}
