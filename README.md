@@ -4,6 +4,10 @@ Welcome to the Odin Recipes project! 🎉
 
 This project is a simple recipe website built as part of The Odin Project's Foundations Course. It's a great exercise for honing your HTML skills.
 
+## Live Site
+
+You can view the live site here: [Odin Recipes](https://farrukh-ali-khan.github.io/odin-recipes/)
+
 ## Project Overview
 
 The Odin Recipes project is designed to:
@@ -28,10 +32,6 @@ The Odin Recipes project is designed to:
 1. Clone the repository: `git clone git@github.com:your-username/odin-recipes.git`
 2. Navigate into the directory: `cd odin-recipes`
 3. Open `index.html` and other recipe files in your preferred text editor to start modifying.
-
-## Live Site
-
-You can view the live site here: [Odin Recipes](https://farrukh-ali-khan.github.io/odin-recipes/)
 
 ## Future Enhancements
 
