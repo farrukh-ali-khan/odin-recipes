@@ -39,10 +39,6 @@ The Odin Recipes project is designed to:
 - Add interactivity with JavaScript.
 - Include more recipes and features.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgements
 
 - The Odin Project
